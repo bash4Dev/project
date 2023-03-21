@@ -12,6 +12,20 @@ main {
     align-items: center;
 }
 
+h1 {
+    color: #246696;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 1.8rem;
+    opacity: 0.8;
+    text-align: center;
+}
+h3 {
+    color: #246696;
+    font-family: "poppins";
+    opacity: 0.8;
+}
+
 section {
     min-height: 80vh;
     width: 60%;
@@ -23,6 +37,77 @@ section {
     border-radius: 2rem;
     z-index: 3;
     backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 2rem;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+    );
+}
+
+.user {
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+.links a {
+    padding: 0.6rem;
+}
+
+.sm {
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+a, label {
+    font-family: cursive;
+}
+
+.body {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.head {
+    margin-bottom: 0rem;
+    text-align: center;
+}
+.head p {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 50;
+}
+
+.skill {
+    display: flex;
+    background: linear-gradient(to left top, 
+    rgba(255,255,255,1),
+    rgba(255,255,255,0.8));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+}
+
+.skills {
+    margin-bottom: 5rem;
 }
 
 .circle1, .circle2 {
@@ -31,18 +116,18 @@ section {
     rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.3)
     );
-    height: 10rem;
-    width: 10rem;
+    height: 12rem;
+    width: 12rem;
     position: absolute;
     z-index: 2;
     border-radius: 50%;
 }
 .circle1{
     top: 5%;
-    right: 15%;
+    right: 13%;
 }
 .circle2{
     bottom: 5%;
-    left: 15%;
+    left: 13%;
 }
 
