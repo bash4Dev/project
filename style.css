@@ -43,7 +43,7 @@ section {
 .dashboard {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1.1;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
@@ -57,6 +57,11 @@ section {
 .user p {
     color: gray;
     opacity: 1;
+}
+.user img {
+    border-radius: 2rem;
+    width: 50%;
+    height: 50%;
 }
 
 .links {
@@ -79,6 +84,11 @@ section {
     border-radius: 2rem;
     padding: 1rem;
 }
+.sm img {
+    width: 15px;
+    height: 15px;
+    margin: 0px 4px;
+}
 
 a {
     font-family: cursive;
@@ -87,6 +97,7 @@ a {
 .body {
     display: flex;
     flex-direction: column;
+    flex: 2;
     justify-content: space-evenly;
     margin: 5rem;
 }
@@ -102,7 +113,7 @@ a {
     width: 100%;
     padding: 0.5rem;
     border-radius: 1rem;
-    color: #34ac96;
+    color: gray;
 }
 
 .skill {
@@ -120,6 +131,11 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.skill img {
+    width: 10%;
+    height: 10%;
+    border-radius: 3rem;
 }
 
 .progress {
